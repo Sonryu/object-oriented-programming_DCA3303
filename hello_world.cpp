@@ -2,7 +2,7 @@
 
 ///using namespace std;
 
-int main(){
+int main(void){
 
     std::cout << "Hello, C++!\n\n";
     
