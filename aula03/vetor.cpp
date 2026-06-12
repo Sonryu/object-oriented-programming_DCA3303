@@ -1,7 +1,16 @@
 #include "vetor.h"
+#incldue <iostream>
 
 Vetor::Vetor(){
     x = y = 0;
+
+    std::cout << "construtor padrão" << std::endl;
+}
+
+Vetor::~Vetor(){
+    
+    std::cout << "destrutor da classe" << std::endl;
+
 }
 
 void Vetor::setX(float mx){
