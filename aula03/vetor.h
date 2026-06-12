@@ -1,7 +1,7 @@
 #ifndef VETOR_H
 #define VETOR_H
 
-class Vector{
+class Vetor{
     float x, y;
 
 public: 
