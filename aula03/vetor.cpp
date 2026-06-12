@@ -7,6 +7,12 @@ Vetor::Vetor(){
     std::cout << "construtor padrão" << std::endl;
 }
 
+Vetor::Vetor(float mx, float my){
+    x = mx; y = my;
+
+    std::cout << "construtor com argumentos" << std::endl;
+}
+
 Vetor::~Vetor(){
     
     std::cout << "destrutor da classe" << std::endl;
