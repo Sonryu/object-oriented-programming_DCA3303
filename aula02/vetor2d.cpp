@@ -6,8 +6,8 @@ void Vetor2d::setX(float x_){
     }else{
         x = 0;
     }
-}
+};
 
 float Vetor2d::getX(void){
     return x;
-}
+};

@@ -9,6 +9,6 @@ class Vetor2d{
     void setX(float x_);
     float getX(void);
 
-}
+};
 
 #endif // VETOR2D_H
