@@ -1,5 +1,9 @@
 #include "vetor.h"
 
+Vetor::Vetor(){
+    x = y = 0;
+}
+
 void Vetor::setX(float mx){
     x = mx;
 };
